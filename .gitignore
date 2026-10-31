@@ -1,0 +1,14 @@
+node_modules/
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+.env
+.env.*
+!.env.example
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

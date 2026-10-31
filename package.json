@@ -1,0 +1,25 @@
+{
+  "name": "decentralized-voting-protocol",
+  "version": "1.0.0",
+  "description": "Decentralized voting protocol ensuring single-vote invariants and tamper-resistant on-chain election tallies.",
+  "main": "contracts/DecentralizedVoting.sol",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart-contracts",
+    "voting",
+    "governance",
+    "web3"
+  ],
+  "author": "Jaishmon M",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5"
+  }
+}
